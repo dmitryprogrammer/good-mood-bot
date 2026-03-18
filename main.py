@@ -10,7 +10,7 @@ async def num():
         await asyncio.sleep(1)
         print("Два")
     
-    for i in range(7):
+    for i in range(3):
         await time()
 
 async def main():
